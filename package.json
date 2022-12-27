@@ -45,5 +45,10 @@
   "devDependencies": {
     "@nomiclabs/hardhat-etherscan": "^3.1.2",
     "hardhat": "^2.12.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }

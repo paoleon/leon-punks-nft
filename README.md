@@ -60,3 +60,55 @@ npx hardhat help
 - Connect wallet
 - Mint NFT
 - Social Media tags
+
+# enable contract
+before you can use this application, you need to:
+- go to your Polyscan website 
+    - "https://mumbai.polygonscan.com/address/0x291856b2Bb214784AcFd7658eD995cca863E30f8#writeContract"
+- open contract
+- bind with the onwer wallet
+- set "isPublicMintEnabled" to true 
+    - follow https://mumbai.polygonscan.com/tx/0x71f428cb11833b608add2ad431d55063691130d609a34a816038a310a45156ef
+
+# mint result
+```json
+{
+    "hash": "0x98ec85e00515512cf78e8ea3e62e3b9ded03e30d943e243fc2de91d8cc7f8945",
+    "type": 2,
+    "accessList": null,
+    "blockHash": null,
+    "blockNumber": null,
+    "transactionIndex": null,
+    "confirmations": 0,
+    "from": "0x18E0Aa30cdfA361e3bF3F425bdeF6375Cdb87E4A",
+    "gasPrice": {
+        "type": "BigNumber",
+        "hex": "0x59682f09"
+    },
+    "maxPriorityFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x59682f00"
+    },
+    "maxFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x59682f09"
+    },
+    "gasLimit": {
+        "type": "BigNumber",
+        "hex": "0x01937c"
+    },
+    "to": "0x291856b2Bb214784AcFd7658eD995cca863E30f8",
+    "value": {
+        "type": "BigNumber",
+        "hex": "0x470de4df820000"
+    },
+    "nonce": 0,
+    "data": "0xa0712d680000000000000000000000000000000000000000000000000000000000000001",
+    "r": "0xae5ae82c796ebe14c2ee42f0201fdb8345e78883a8e5dbccea376bff4390d4c3",
+    "s": "0x14d442fd71453b72287ec9a6f20893adb3656a34cd45509ceadfc2f5b162d6f5",
+    "v": 1,
+    "creates": null,
+    "chainId": 0
+}
+
+```
